@@ -1,0 +1,14 @@
+{
+  "name": "awesome-acp",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A curated list of resources for the Agent Client Protocol (ACP) — validated in CI",
+  "type": "module",
+  "scripts": {
+    "lint": "awesome-lint",
+    "test": "npm run lint"
+  },
+  "devDependencies": {
+    "awesome-lint": "^2.3.0"
+  }
+}

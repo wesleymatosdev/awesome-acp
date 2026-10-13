@@ -1,0 +1,21 @@
+name: Validate list
+
+on:
+  pull_request:
+    paths:
+      - "README.md"
+  push:
+    branches: [main]
+    paths:
+      - "README.md"
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - run: npm install --no-audit --no-fund
+      - run: npx awesome-lint
