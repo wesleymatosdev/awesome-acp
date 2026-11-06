@@ -10,6 +10,7 @@
 
 Coding agents and harnesses that implement ACP, following the [official agents directory](https://agentclientprotocol.com/get-started/agents). Descriptions state how each one exposes ACP.
 
+- [acp-llm-adapter](https://github.com/euri10/acp-llm-adapter) - Rust ACP coding-agent harness for DeepSeek, GLM and Groq, with permission-gated tools and persistent sessions.
 - [AgentPool](https://phil65.github.io/agentpool/advanced/acp-integration/) - Agent Client Protocol integration for desktop applications.
 - [Augment Code](https://docs.augmentcode.com/cli/acp) - Auggie CLI acts as an ACP agent for any compatible client.
 - [AutoDev](https://github.com/phodal/auto-dev) - Multi-agent coding development platform built on Kotlin Multiplatform.
